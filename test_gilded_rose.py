@@ -41,7 +41,7 @@ class GildedRoseTest(unittest.TestCase):
     self.assertEquals(0, items[0].quality)
 
 
-  def test_something(self):
+  def test_quality_decreases_faster_after_sellby_date(self):
     item_name = "Elixir of the Mongoose"
     sell_in = 0
     quality = 2
