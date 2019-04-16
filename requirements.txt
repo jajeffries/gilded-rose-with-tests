@@ -1,3 +1,2 @@
-parameterized
 nose
 coverage
