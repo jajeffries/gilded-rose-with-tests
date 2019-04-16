@@ -19,5 +19,5 @@ make results
 ```
 
 ## Todo
-[] Work out why branch coverage isn't working
-[] Add tests to get better branch coverage, especially around backstage passes 
+[ ] Work out why branch coverage isn't working
+[ ] Add tests to get better branch coverage, especially around backstage passes 
