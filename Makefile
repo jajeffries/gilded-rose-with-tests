@@ -7,3 +7,9 @@ test: setup
 
 results: test
 	firefox cover/index.html
+
+create-master:
+	python3 texttest_fixture.py 20 > master.txt
+
+check-master:
+	python3 texttest_fixture.py 20 | diff master.txt -
