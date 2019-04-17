@@ -2,7 +2,7 @@
 setup:
 	pip3 install --user -r requirements.txt
 
-test: setup
+test: setup check-master
 	nosetests --with-coverage --cover-html test_gilded_rose.py
 
 results: test

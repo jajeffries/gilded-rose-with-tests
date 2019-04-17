@@ -13,11 +13,9 @@ You can run the tests using
 make test
 ```
 
-This will run the tests and produce a code coverage report in `cover/index.html`. You can also regenerate it and open it using
+This will run the unit tests and check the output of 20 days worth of items against a golden master.
+
+`make test` will also produce a code coverage report in `cover/index.html`. You can also regenerate it and open it using
 ```
 make results
 ```
-
-## Todo
-- Work out why branch coverage isn't working
-- Add tests to get better branch coverage, especially around backstage passes 
